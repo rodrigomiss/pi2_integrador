@@ -62,50 +62,49 @@
 
 					<div class="row events">
 					  <div class="event col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					    <div class="thumbnail">
-					      <img class="event-thumbnail" src="media/image/event1.png" alt="...">
-					      <div class="caption">
-					        <h3>Semana Acadêmica de TSI 2014</h3>
-					        <p>De 22/09/14 a 26/09/14</p>
-					        <p><button class="btn btn-default btn-lg" data-toggle="modal" data-target="#modalevent1">
-									  Detalhes
-									</button></p>
-					      </div>
-					    </div>
+					  	<a class="event-link" data-toggle="modal" data-target="#modalevent1">
+						    <div class="thumbnail">
+						      <img class="event-thumbnail" src="media/image/event1.png" alt="...">
+						      <div class="caption">
+						        <h3>Semana Acadêmica de TSI 2014</h3>
+						        <p>De 22/09/14 a 26/09/14</p>
+						      </div>
+					    	</div>
+					    </a>
 					  </div>
 					  <div class="event col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					    <div class="thumbnail">
+					    <a class="event-link" data-toggle="modal" data-target="#modalevent2">
+					    	<div class="thumbnail">
 					      <img class="event-thumbnail" src="media/image/event2.jpg" alt="...">
 					      <div class="caption">
 					        <h3>Semana Acadêmica EM 2014</h3>
 					        <p>De 06/10/14 a 10/10/14</p>
-					        <p><button class="btn btn-default btn-lg" data-toggle="modal" data-target="#modalevent2">
-									  Detalhes
-									</button></p>
 					      </div>
 					    </div>
+					   </a>
 					  </div>
 					  <div class="event col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					    <div class="thumbnail">
+					    <a class="event-link" data-toggle="modal" data-target="#modalevent3">
+					    	<div class="thumbnail">
 					      <img class="event-thumbnail" src="img/placeholder-evento.png" alt="...">
 					      <div class="caption">
 					        <h3>Evento 3</h3>
-					        <p>Descrição teste do evento 3</p>
-					        <p><a href="#" class="btn btn-default" role="button">Inscrever-se</a></p>
+					        <p>11/07/14</p>
 					      </div>
 					    </div>
+					   </a>
 					  </div>
 					  <div class="event col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					    <div class="thumbnail">
-					      <img class="event-thumbnail" src="img/placeholder-evento.png" alt="...">
+					    <a class="event-link" data-toggle="modal" data-target="#modalevent4">
+					    	<div class="thumbnail">
+					      <img class="event-thumbnail" src="img/placeholder-evento-2.png" alt="...">
 					      <div class="caption">
 					        <h3>Evento 4</h3>
-					        <p>Descrição teste do evento 4</p>
-					        <p><a href="#" class="btn btn-default disabled" role="button">Inscrições Encerradas</a></p>
+					        <p>30/05/14</p>
 					      </div>
 					    </div>
+					   </a>
 					  </div>
-					</div>
 
 					<div class="row">
 			  		<div id="media-thumbnail" class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">FOTOS E VÍDEOS DOS ÚLTIMOS EVENTOS

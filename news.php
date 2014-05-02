@@ -8,7 +8,7 @@
 			<?php require_once "includes/main-menu.php";?>
 
 			<div id="news">
-		  		<div id="news-list" class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">Notícias
+		  		<div id="news-list" class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1"><h2>Notícias</h2>
 					<div class="list-group">
 					  <a href="#" class="list-group-item">
 					  	<div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">

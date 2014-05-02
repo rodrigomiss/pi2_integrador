@@ -3,7 +3,7 @@
     <div class="modal-content">
       <div class="modal-body">
       	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-      	<div class="event col-lg-12 col-md-3 col-sm-6 col-xs-12">
+      	<div class="event col-lg-12 col-md-12 col-sm-12 col-xs-12">
         	<img class="event-thumbnail" src="media/image/event1.png" alt="...">
         </div>
         <div class="caption">
@@ -24,7 +24,7 @@
     <div class="modal-content">
       <div class="modal-body">
       	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-      	<div class="event col-lg-12 col-md-3 col-sm-6 col-xs-12">
+      	<div class="event col-lg-12 col-md-12 col-sm-12 col-xs-12">
         	<img class="event-thumbnail" src="media/image/event2.jpg" alt="...">
         </div>
         <div class="caption">

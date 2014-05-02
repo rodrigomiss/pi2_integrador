@@ -136,3 +136,8 @@ img{
 	border-bottom: 1px solid #BBB;
 	padding-top: 5px;
 }
+
+.event-link{
+	text-decoration: none !important;
+	cursor: pointer;
+}
