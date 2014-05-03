@@ -53,7 +53,7 @@
 								    <h4 class="list-group-item-heading">Título da terceira notícia</h4>
 								    <p class="list-group-item-text">Subtítulo da terceira notícia</p>
 								  </a>
-								  <a href="#" class="older-news">Ver Notícias Anteriores</a>
+								  <a href="news.php" class="older-news">Ver Notícias Anteriores</a>
 
 							</div>
 

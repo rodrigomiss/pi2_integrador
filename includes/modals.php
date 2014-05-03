@@ -11,7 +11,7 @@
 	        <h4>De 22/09/14 a 26/09/14</h4>
 	        <p>Palestras, minicursos e atividades relacionadas à Tecnologia em Sistemas para Internet</p>
 	      </div>
-	      <button type="button" class="btn btn-default">Ir para a página do evento</button>
+	      <a href="event.php" class="btn btn-default" role="button">Ir para a página do evento</a>
 	      <button type="button" class="btn btn-default">Inscrever-se</button>
 	      <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
       </div>
