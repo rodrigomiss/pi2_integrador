@@ -22,7 +22,7 @@
 				  			<div class="row">
 				  				<div id="banner-slider" class="slider-wrapper theme-default col-xs-12">
 				  					<div id="slider" class="nivoSlider">
-									    <img src="img/placeholder-evento.png" alt="" />
+									    <a href="event-special.php"><img src="media/image/banner_slider_1.png" alt="" /></a>
 									    <img src="img/placeholder-evento-2.png" alt="" /></a>
 									    <img src="img/placeholder-evento.png" alt="" />
 									    <img src="img/placeholder-evento-2.png" alt="" />
@@ -30,7 +30,7 @@
 				  				</div>
 				  			</div>
 				  		</div>
-				  		<div id="news-list" class="col-lg-9 col-lg-pull-3 col-md-9 col-md-pull-3 col-sm-6 col-sm-pull-6 col-xs-12">Notícias
+				  		<div id="news-list" class="col-lg-9 col-lg-pull-3 col-md-9 col-md-pull-3 col-sm-6 col-sm-pull-6 col-xs-12">
 								<div class="list-group">
 								  <a href="#" class="list-group-item">
 								  	<div class="col-xs-2 col-sm-5 col-md-2 col-lg-2">
@@ -105,7 +105,7 @@
 					    </div>
 					   </a>
 					  </div>
-
+					</div>
 					<div class="row">
 			  		<div id="media-thumbnail" class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">FOTOS E VÍDEOS DOS ÚLTIMOS EVENTOS
 							<div class="row">

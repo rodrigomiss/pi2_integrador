@@ -20,7 +20,7 @@
           <li><a href="#">EVENTOS ANTERIORES</a></li>
           <li><a href="news.php">NOTÍCIAS</a></li>
           <li><a href="#">FOTOS E VÍDEOS</a></li>
-          <li><a href="#">CONTATO</a></li>
+          <li><a href="contact.php">CONTATO</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

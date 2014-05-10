@@ -31,28 +31,29 @@
 				<div id="account-login" class="row" style="display:none">
 					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-sm-offset-1">
 						<div class="input-group">
-							<span class="input-group-addon glyphicon-envelope"></span>
+							<span class="input-group-addon glyphicon glyphicon-envelope"></span>
 						  <input type="text" class="form-control" placeholder="Endereço de e-mail">
 						</div>
 						<div class="input-group">
-						  <span class="input-group-addon glyphicon-asterisk"></span>
+						  <span class="input-group-addon glyphicon glyphicon-asterisk"></span>
 						  <input type="text" class="form-control" placeholder="Senha">
 						</div>
+						<button type="submit" class="btn btn-default btn-lg">Login</button>
 					</div>
 				</div>
 				<div id="account-cadastro" class="row" style="display:none">
 					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-sm-offset-1">
 						<form>
 							<div class="input-group">
-							  <span class="input-group-addon glyphicon-user"></span>
+							  <span class="input-group-addon glyphicon glyphicon-user"></span>
 							  <input type="text" class="form-control" placeholder="Nome">
 							</div>
 							<div class="input-group">
-								<span class="input-group-addon glyphicon-envelope"></span>
+								<span class="input-group-addon glyphicon glyphicon-envelope"></span>
 							  <input type="text" class="form-control" placeholder="Endereço de e-mail">
 							</div>
 							<div class="input-group">
-							  <span class="input-group-addon glyphicon-asterisk"></span>
+							  <span class="input-group-addon glyphicon glyphicon-asterisk"></span>
 							  <input type="text" class="form-control" placeholder="Senha">
 							</div>
 							<br/>
@@ -67,6 +68,7 @@
 							<select class="form-control" placeholder="Nome">
 								<option selected disabled>Estado</option>
 							</select>
+							<button type="submit" class="btn btn-default btn-lg">Cadastrar</button>
 						</form>
 					</div>
 				</div>
