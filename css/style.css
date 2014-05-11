@@ -209,3 +209,16 @@ a.event-related-link:hover{
 .youtube-link:hover{
 	background-image: url("/projeto_integrador/img/youtube-hover.png");
 }
+
+#login-bar a{
+	display: none;
+}
+
+#login-bar{
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+#login-bar:hover a{
+	display: inline;
+}
