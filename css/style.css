@@ -222,3 +222,11 @@ a.event-related-link:hover{
 #login-bar:hover a{
 	display: inline;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+
+ .navbar-text{
+ 	font-style: italic;
+ }
