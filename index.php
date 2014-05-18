@@ -3,6 +3,7 @@
 	<?php require_once "includes/head.php";?>	
 	<body>
 		<div class="container">
+			
 			<?php require_once "includes/header.php";?>
 
 			<?php require_once "includes/main-menu.php";?>
@@ -32,12 +33,12 @@
 				  		</div>
 				  		<div id="news-list" class="col-lg-9 col-lg-pull-3 col-md-9 col-md-pull-3 col-sm-6 col-sm-pull-6 col-xs-12">
 								<div class="list-group">
-								  <a href="#" class="list-group-item">
+								  <a href="news-item.php" class="list-group-item">
 								  	<div class="col-xs-2 col-sm-5 col-md-2 col-lg-2">
-								  		<img class="thumbnail" src="img/placeholder-evento.png" alt="...">
+								  		<img class="thumbnail" src="media/image/event1.png" alt="...">
 								  	</div>
-								    <h4 class="list-group-item-heading">Título da primeira notícia</h4>
-								    <p class="list-group-item-text">Subtítulo da primeira notícia</p>
+								    <h4 class="list-group-item-heading">Programação da Semana de TSI 2014</h4>
+					    			<p class="list-group-item-text">Foi definida a programação da Semana Acadêmica do curso de Tecnologia em Sistemas para Internet de 2014.</p>
 								  </a>
 								  <a href="#" class="list-group-item">
 								  	<div class="col-xs-2 col-sm-5 col-md-2 col-lg-2">
@@ -84,12 +85,12 @@
 					   </a>
 					  </div>
 					  <div class="event col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					    <a class="event-link" data-toggle="modal" data-target="#modalevent3">
+					    <a class="event-link" data-toggle="modal" data-target="#modalsubevent1">
 					    	<div class="thumbnail">
-					      <img class="event-thumbnail" src="img/placeholder-evento.png" alt="...">
+					      <img class="event-thumbnail" src="media/image/event1.png" alt="...">
 					      <div class="caption">
-					        <h3>Evento 3</h3>
-					        <p>11/07/14</p>
+					        <h3>Minicurso de Linux</h3>
+					        <p>26/09/14</p>
 					      </div>
 					    </div>
 					   </a>
@@ -107,7 +108,7 @@
 					  </div>
 					</div>
 					<div class="row">
-			  		<div id="media-thumbnail" class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">FOTOS E VÍDEOS DOS ÚLTIMOS EVENTOS
+			  		<div id="media-thumbnail" class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12"><h5>FOTOS E VÍDEOS DOS ÚLTIMOS EVENTOS</h5>
 							<div class="row">
 								<div class="media-item col-xs-4 col-sm-4 col-md-2 col-lg-2">
 								  	<a href="media/image/image1.jpg" class="fancybox" title="Formatura de TSI 2014" rel="lightbox"><img class="thumbnail" src="media/image/image1.jpg" alt="Formatura TSI"/>FORMATURA TSI</a>
