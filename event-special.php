@@ -100,7 +100,8 @@
 			   </a>
 			  </div>
 			</div>
-
+			<div class="fb-comments" data-href="event.php" data-numposts="5" data-colorscheme="light"></div>
+			
 			<?php require_once "includes/footer.php";?>
 		</div>
 		<?php require_once "includes/modals.php";?>

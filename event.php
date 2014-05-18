@@ -29,6 +29,7 @@
 					<button type="button" class="btn btn-default btn-lg">Inscrever-se</button>
 				</div>
 			</div>
+			<div class="fb-comments" data-href="event.php" data-numposts="5" data-colorscheme="light"></div>
 			
 			<?php require_once "includes/footer.php";?>
 		</div>
