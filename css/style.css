@@ -1,232 +1,100 @@
-.container-fluid, .container{
-	text-align: center;
-}
+/* CSS Principal */
+body{ background: #FFF; }
+ul, ol{ list-style-type: none; }
+img{ width: 100%; }
+.container-fluid, .container{ text-align: center; }
+.btn:hover, a, .facebook-link, .youtube-link, #main-menu li, #account-menu li{ webkit-transition: all .3s ease-in-out;	transition: all .3s ease-in-out; }
+.col-bordered{ border: 1px solid #AAA; }
 
-body{
-	background: #FFF;
-}
 
-.btn:hover, a, .facebook-link, .youtube-link{
-	webkit-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-}
+/* Elementos */
+#header{ background: #FFF; }
+#title-banner-img{ width: 100%; margin-top:15px; margin-bottom:15px; }
+#main-menu nav, #account-menu, .media-item .thumbnail{ background: #FFF; border-radius: 0; }
+#login-bar{ background: #EEE; font-size: 12px; padding: 5px; }
+#login-bar button{ width: 70px; }
+#news-list .list-group{ text-align: left; }
+#news-list, #news-list a.list-group-item, .event div.thumbnail{ border-radius: 0; border-top-left-radius: 0; border-top-right-radius: 0; }
+#news-list img.thumbnail{ max-height: 80px; min-height: 70px;}
+#account-cadastro, #account-login{ text-align: center; }
+.nivo-directionNav a{ top: 80% !important; }
+.pagination li.active a{ background-color: #AAA; border-color: #000; }
+.pagination li.active a:hover{ background-color: #000; border-color: #000; }
 
-.col-bordered{
-	border: 1px solid black;
-}
 
-#header{
-	background: #FFF;
-}
+/* Eventos */
+.event div.thumbnail:hover{ background-color: #CCC; border-radius: 5%; }
+.event div.thumbnail img{ border: 1px solid #CCC; }
+img.thumbnail:hover{ background-color: #AAA; border-radius: 5%; }
+.event-thumbnail{ width: 80%; margin-top: 5px; }
+.modal-body{ text-align: center; }
+.event-link{ text-decoration: none !important; cursor: pointer; }
+a.event-related-link{ padding: 2px; }
+a.event-related-link:hover{ text-decoration: none; background: #FFF; border-radius: 5px;}
+.events{ border-top: 1px solid #BBB; border-bottom: 1px solid #BBB; padding-top: 5px; }
 
-#title-banner-img{
-	width: 100%;
-	margin-top:5px;
-	margin-bottom:5px;
-}
 
-#main-menu nav, #account-menu, .media-item .thumbnail{
-	background: #FFF;
-	border-radius: 0;
-}
+/* Correacao Glyphicon */
+#account-register input.input-glyphicon, #account-login input.input-glyphicon, #contact-form input.input-glyphicon{ margin-top: 1px !important; margin-bottom: -1px !important; }
 
-#login-bar{
-	background: #EEE;
-	font-size: 12px;
-	padding: 5px;
-}
 
-#login-bar button{
-	width: 70px;
-}
+/* Contato */
+#contact-form button{ margin-top: 15px; }
 
-#content{
-	
-}
 
-#news-list .list-group{
-	text-align: left;
-}
+/* Menu */
+#main-menu li:hover, #account-menu li:hover{ background: #CCC; }
+#main-menu a:hover, #account-menu a:hover{ color: #000; }
+.navbar-text{ font-style: italic; font-weight: bold; }
+.navbar .nav, .navbar .nav > li { float:none; display:inline-block; vertical-align: top; }
 
-#news-list, #news-list a.list-group-item, .event div.thumbnail{
-	border-radius: 0;
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
-}
 
-.event div.thumbnail:hover{
-	background-color: #CCC;
-	border-radius: 5%;
-}
+/* Banner home */
+#banner-slider{ background: #FFF; }
+#banner-slider img{ width: 100% !important; }
 
-.event div.thumbnail img{
 
-	border: 1px solid #CCC;
-}
+/* Footer */
+#footer{ margin-top: 10px; padding-top: 10px; background: #FFF; border-top: 1px solid #BBB; }
+.facebook-link{ width: 64px; height: 64px; background-image: url("/projeto_integrador/img/facebook.png"); background-repeat: no-repeat; }
+.facebook-link:hover{ background-image: url("/projeto_integrador/img/facebook-hover.png"); }
+.youtube-link{ width: 64px; height: 64px; background-image: url("/projeto_integrador/img/youtube.png"); background-repeat: no-repeat; }
+.youtube-link:hover{ background-image: url("/projeto_integrador/img/youtube-hover.png"); }
+#footer-links{ border-right: 1px solid #BBB; }
 
-img.thumbnail:hover{
-	background-color: #AAA;
-	border-radius: 5%;
-}
 
-#main-menu li, #account-menu li{
-	webkit-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-}
+/* Notícias */
+.older-news{ float:right; }
+.navbar-toggle{ float: center; }
+#news-list .list-group img.thumbnail, { width:100% !important; }
+#news-list .list-group-item{ min-height: 105px; webkit-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
+#news-list .list-group-item:hover{ background-color: #CCC; }
+#news #news-list .list-group-item{ min-height: 140px; }
 
-#main-menu li:hover, #account-menu li:hover{
-	background: #CCC;
-}
 
-#main-menu a:hover, #account-menu a:hover{
-	color: #000;
-}
+/* Fotos e vídeos */
+#media-thumbnail img{ margin-bottom: 0; }
+#media-thumbnail a{ text-decoration: none; color: #000; font-size: 10px; }
+.media-item{ margin-bottom: 5px; }
 
-#banner-slider{
-	background: #FFF;
-}
 
-#banner-slider img{
-	width: 100% !important;
-}
+ /* Login Bar */
+#login-bar a{ display: none; }
+#login-bar{ border-bottom-left-radius: 50%; border-bottom-right-radius: 50%; }
+#login-bar:hover a{ display: inline; }
 
-#footer{
-	margin-top: 10px;
-	padding-top: 10px;
-	background: #FFF;
-	border-top: 1px solid #BBB;
-}
 
-.event-thumbnail{
-	width: 80%;
-	margin-top: 5px;
-}
+/* Comentários do Facebook */
+.fb-comments{ margin-top: 25px; }
 
-.modal-body .event-thumbnail{
 
-}
+/* Breadcrumbs */
+.breadcrumb{ display:inline-block; }
 
-.older-news{
-	float:right;
-}
 
-.navbar-toggle{
-    float: center;
-}
-
-.navbar .navbar-nav {
-/*    display: inline-block;
-    float: center;*/
-}
-
-#news-list .list-group img.thumbnail, {
-	width:100% !important;
-}
-
-#news-list .list-group-item{
-	min-height: 105px;
-	webkit-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-}
-
-#news-list .list-group-item:hover{
-	background-color: #CCC;
-}
-
-#news #news-list .list-group-item{
-	min-height: 140px;
-}
-
-img{
-	width: 100%;
-}
-
-#media-thumbnail img{
-	margin-bottom: 0;
-}
-
-#media-thumbnail a{
-	text-decoration: none;
-	color: #000;
-	font-size: 10px;
-}
-
-.media-item{
-	margin-bottom: 5px;
-}
-
-#account-cadastro, #account-login{
-	text-align: center;
-}
-
-.nivo-directionNav a{
-	top: 80% !important;
-}
-
-.events{
-	border-top: 1px solid #BBB;
-	border-bottom: 1px solid #BBB;
-	padding-top: 5px;
-}
-
-.event-link{
-	text-decoration: none !important;
-	cursor: pointer;
-}
-
-a.event-related-link{
-	padding: 2px;
-}
-
-a.event-related-link:hover{
-	text-decoration: none;
-	background: #FFF;
-	border-radius: 5px;
-}
-
-#footer-links{
-	border-right: 1px solid #BBB;
-}
-
-.facebook-link{
-	width: 64px;
-	height: 64px;
-	background-image: url("/projeto_integrador/img/facebook.png");
-	background-repeat: no-repeat;
-}
-
-.facebook-link:hover{
-	background-image: url("/projeto_integrador/img/facebook-hover.png");
-}
-
-.youtube-link{
-	width: 64px;
-	height: 64px;
-	background-image: url("/projeto_integrador/img/youtube.png");
-	background-repeat: no-repeat;
-}
-
-.youtube-link:hover{
-	background-image: url("/projeto_integrador/img/youtube-hover.png");
-}
-
-#login-bar a{
-	display: none;
-}
-
-#login-bar{
-	border-bottom-left-radius: 50%;
-	border-bottom-right-radius: 50%;
-}
-
-#login-bar:hover a{
-	display: inline;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
- }
-
- .navbar-text{
- 	font-style: italic;
- }
+/* PAINEL DO ADMIN */
+.dropdown:hover .dropdown-menu { display: block; }
+ul.left-menu a{ padding: 5px 5px !important; text-align:left; width: 100%; }
+ul.left-menu span{ text-align: left; }
+#account-register .col-xs-3, #account-register .col-xs-4, #account-register .col-xs-6, #account-register .col-xs-9, #account-register .col-xs-10, #account-register .col-xs-12{ padding-bottom: 10px; }
+#account-register span{ margin-bottom: 1px; }
