@@ -10,12 +10,12 @@
 			<div id="news">
 		  		<div id="news-list" class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1"><h2>Notícias</h2>
 					<div class="list-group">
-					  <a href="#" class="list-group-item">
+					  <a href="news-item.php" class="list-group-item">
 					  	<div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
-					  		<img class="thumbnail" src="img/placeholder-evento.png" alt="...">
+					  		<img class="thumbnail" src="media/image/event1.png" alt="...">
 					  	</div>
-					    <h4 class="list-group-item-heading">Título da primeira notícia</h4>
-					    <p class="list-group-item-text">Subtítulo da primeira notícia</p>
+					    <h4 class="list-group-item-heading">Programação da Semana de TSI 2014</h4>
+					    <p class="list-group-item-text">Foi definida a programação da Semana Acadêmica do curso de Tecnologia em Sistemas para Internet de 2014.</p>
 					  </a>
 					  <a href="#" class="list-group-item">
 					  	<div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
@@ -78,8 +78,8 @@
 				</div>
 			</div>
 			
-			<?php require_once "includes/footer.php";?>
+			
 		</div>
-
+		<?php require_once "includes/footer.php";?>
 	</body>
 </html>
