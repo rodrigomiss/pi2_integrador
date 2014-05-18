@@ -23,6 +23,12 @@
               </ul>
             </li>
             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Notícias</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Listar</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuários</a>
               <ul class="dropdown-menu">
                 <li><a href="#">Listar</a></li>
@@ -33,6 +39,7 @@
               <ul class="dropdown-menu">
                 <li><a href="#">Configurações Gerais</a></li>
                 <li><a href="#">Tema e template</a></li>
+                <li><a href="#">Banners homepage</a></li>
               </ul>
             </li>
           </ul>
