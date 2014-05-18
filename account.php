@@ -10,7 +10,7 @@
 			<div class="row">
 				<div id="content" class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
 				<div class="row">
-						<div id="account-menu" class="navbar navbar-default col-xs-4 col-xs-offset-4" role="navigation">
+						<div id="account-menu" class="navbar navbar-default col-xs-12 login-menu" role="navigation">
 	    				<div class="container">
 	<!--       				<div class="navbar-header">
 		              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -22,7 +22,7 @@
 		            </div> -->
 		              <ul class="nav navbar-nav">
 		                <li><a id="btn-account-login" href="#">LOGIN</a></li>
-		                <li><a id="btn-account-cadastro" href="#">CADASTRO</a></li>
+		                <li><a id="btn-account-register" href="#">CADASTRO</a></li>
 		              </ul>
 		            </div>
 		        </div>
@@ -32,42 +32,82 @@
 					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-sm-offset-1">
 						<div class="input-group">
 							<span class="input-group-addon glyphicon glyphicon-envelope"></span>
-						  <input type="text" class="form-control" placeholder="Endereço de e-mail">
+						  <input type="text" class="form-control input-glyphicon" placeholder="Endereço de e-mail">
 						</div>
 						<div class="input-group">
 						  <span class="input-group-addon glyphicon glyphicon-asterisk"></span>
-						  <input type="text" class="form-control" placeholder="Senha">
+						  <input type="text" class="form-control input-glyphicon" placeholder="Senha">
 						</div>
 						<button type="submit" class="btn btn-default btn-lg">Login</button>
 					</div>
 				</div>
-				<div id="account-cadastro" class="row" style="display:none">
-					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-sm-offset-1">
+				<div id="account-register" class="row" style="display:none">
+					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
 						<form>
-							<div class="input-group">
-							  <span class="input-group-addon glyphicon glyphicon-user"></span>
-							  <input type="text" class="form-control" placeholder="Nome">
+
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="input-group">
+									  <span class="input-group-addon glyphicon glyphicon-user"></span>
+									  <input type="text" class="form-control input-glyphicon" placeholder="Nome">
+									</div>
+								</div>
 							</div>
-							<div class="input-group">
-								<span class="input-group-addon glyphicon glyphicon-envelope"></span>
-							  <input type="text" class="form-control" placeholder="Endereço de e-mail">
+
+							<div class="row">
+								<div class="col-xs-6">
+									<div class="input-group">
+										<span class="input-group-addon glyphicon glyphicon-envelope"></span>
+									  <input type="text" class="form-control input-glyphicon" placeholder="Endereço de e-mail">
+									</div>
+								</div>
+								<div class="col-xs-6">
+									<div class="input-group">
+									  <span class="input-group-addon glyphicon glyphicon-asterisk"></span>
+									  <input type="text" class="form-control input-glyphicon" placeholder="Senha">
+									</div>
+								</div>
 							</div>
-							<div class="input-group">
-							  <span class="input-group-addon glyphicon glyphicon-asterisk"></span>
-							  <input type="text" class="form-control" placeholder="Senha">
+
+							<br/>
+							<div class="row">
+								<div class="col-xs-6">
+									<input type="text" class="form-control" placeholder="R.G.">
+								</div>
+								<div class="col-xs-6">
+									<input type="text" class="form-control" placeholder="CPF">
+								</div>
 							</div>
 							<br/>
-							<input type="text" class="form-control" placeholder="R.G.">
-							<input type="text" class="form-control" placeholder="CPF">
-							<br/>
-							<input type="text" class="form-control" placeholder="Rua">
-							<input type="text" class="form-control" placeholder="Número">
-							<input type="text" class="form-control" placeholder="Bairro">
-							<input type="text" class="form-control" placeholder="Complemento">
-							<input type="text" class="form-control" placeholder="Cidade">
-							<select class="form-control" placeholder="Nome">
-								<option selected disabled>Estado</option>
-							</select>
+
+							<div class="row">
+								<div class="col-xs-9">
+									<input type="text" class="form-control" placeholder="Rua">
+								</div>
+								<div class="col-xs-3">
+									<input type="text" class="form-control" placeholder="Número">
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-xs-6">
+									<input type="text" class="form-control" placeholder="Bairro">
+								</div>
+								<div class="col-xs-6">
+									<input type="text" class="form-control" placeholder="Complemento">
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-xs-8">
+									<input type="text" class="form-control" placeholder="Cidade">
+								</div>
+								<div class="col-xs-4">
+									<select class="form-control" placeholder="Nome">
+										<option selected disabled>Estado</option>
+									</select>
+								</div>
+							</div>
 							<button type="submit" class="btn btn-default btn-lg">Cadastrar</button>
 						</form>
 					</div>
