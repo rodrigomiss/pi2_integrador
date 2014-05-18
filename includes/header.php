@@ -4,7 +4,7 @@
 			<div id="login-bar" class="col-borded col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
 				Bem vindo, visitante<br/>
 				<a href="account.php" class="btn btn-default btn-xs" role="button"><span class="glyphicon glyphicon-log-in"></span> Login</a>
-				<!-- <button type="button" class="btn btn-default btn-xs">Cadastro</button> -->
+				<a href="account.php" class="btn btn-default btn-xs" role="button"><span class="glyphicon glyphicon-log-in"></span> Cadastro</a>
 			</div>
 		</div>
 	  	<div class="row logged-in" style="display:none">

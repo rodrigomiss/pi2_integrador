@@ -1,6 +1,6 @@
 <div class="row">
   <div id="main-menu" class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
-  <nav class="navbar navbar-default" role="navigation">
+  <nav class="navbar navbar-default main-menu" role="navigation">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">

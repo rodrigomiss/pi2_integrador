@@ -52,6 +52,7 @@
           <h2>Minicurso de Linux</h2>
           <h4>26/09/14</h4>
           <p>Minicurso de Linux para iniciantes</p>
+          <h3><span class="label label-info">Este evento faz parte do evento: <a class="event-related-link" href="event-special.php">Semana Academica de TSI</a></span></h3>
         </div>
         <a href="event.php" class="btn btn-default" role="button">Ir para a página do evento</a>
         <button type="button" class="btn btn-default">Inscrever-se</button>

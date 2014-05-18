@@ -6,7 +6,6 @@
 <!-- Javascript tema -->
 <script src="js/script.js"></script>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script type="text/javascript" src="plugins/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="plugins/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
@@ -45,3 +44,12 @@ $(window).load(function() {
 	});
 });
 </script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
