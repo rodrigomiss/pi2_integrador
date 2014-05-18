@@ -1,9 +1,9 @@
 $("#btn-account-login").click(function(){
-	$("#account-cadastro").hide();
+	$("#account-register").hide();
 	$("#account-login").fadeIn();
  });
 
-$("#btn-account-cadastro").click(function(){
+$("#btn-account-register").click(function(){
 	$("#account-login").hide();
-	$("#account-cadastro").fadeIn();
+	$("#account-register").fadeIn();
  });
